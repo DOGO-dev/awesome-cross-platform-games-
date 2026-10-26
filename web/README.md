@@ -2,7 +2,7 @@
 
 [Español](README.md) · [English](README.en.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [简体中文](README.zh-CN.md) · [Français](README.fr.md)
 
-Selección de enlaces a juegos y ports ejecutables en navegador, tomada de la lista compartida `games_list.md` (fuente original: [Ported2Browser](https://ported2browser.com/)). Incluye 156 entradas de esa lista y 49 enlaces adicionales de source-ports/reimplementaciones.
+
 
 Se excluyeron las entradas marcadas como fangame, romhack, compilación/compendio, software o juego de mesa, los proyectos identificables como fanworks aunque no estuvieran etiquetados y los registros con etiquetas no identificadas. La lista de origen no verifica que cada publicación web esté autorizada por el titular de derechos; comprueba la legitimidad del proyecto y sus requisitos en la página enlazada. Este repositorio no aloja juegos ni archivos de juego.
 
