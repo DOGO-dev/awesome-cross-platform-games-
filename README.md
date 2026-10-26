@@ -332,4 +332,3 @@ El repositorio enlaza requisitos; no almacena ni distribuye juegos, ISO, ROMs, B
 - Registramos plataforma original, formato de datos, región y revisión solo con una fuente verificable.
 - Consulta el proyecto original para conocer requisitos, licencia, estado y archivos necesarios.
 
-[Cómo contribuir](CONTRIBUTING.md)
