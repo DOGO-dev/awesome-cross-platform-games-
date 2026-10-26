@@ -25,4 +25,3 @@ The Spanish [main page](README.md) shows verified PC and Android ports, a filter
 - Links point to original projects and documentation. This repository does not distribute games, disc images, ROMs, BIOS files, keys, or protected assets.
 - Always check the author's documentation for requirements, license, status, and required files.
 
-[Contributing](CONTRIBUTING.md)
