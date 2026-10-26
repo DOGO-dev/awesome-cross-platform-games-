@@ -1,0 +1,33 @@
+name: Sync README catalogue
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ports/portsdr-projects.md"
+      - "scripts/sync-readme-catalog.py"
+      - ".github/workflows/sync-readme-catalog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Generate homepage catalogue
+        run: python scripts/sync-readme-catalog.py
+      - name: Commit generated files
+        run: |
+          if ! git diff --quiet -- README.md ports/portsdr-projects.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md ports/portsdr-projects.md
+            git commit -m "docs: sync root catalogue [skip ci]"
+            git push
+          fi
